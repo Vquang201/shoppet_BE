@@ -339,8 +339,8 @@ const catsV2 = [
     }
 ]
 
-// const PORT = process.env.PORT || 8080
-app.listen('8080', () => {
+const PORT = process.env.PORT || 8080
+app.listen(PORT, () => {
     console.log(`sever is runing with host`)
 })
 
