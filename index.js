@@ -322,7 +322,7 @@ const catsV2 = [
         breed: 'Meow MeoW',
         description: 'Giống mèo này là sản phẩm nhân giống giữa mèo Ba tư và mèo Xiêm. Được lai tạo đầu tiên ở Hoa Kỳ. Chúng sở hữu bộ lông dài tuyệt đẹp của mèo Ba Tư và màu sắc khá lạ mắt của mèo Xiêm.',
         price: 880,
-        imageUrl: 'https://my-pet.vn/wp-content/uploads/2021/04/meo-himalaya-2-600x479.jpg'
+        imageUrl: 'https://mypet.vn/wp-content/uploads/2021/06/Himalayan-lounging-1.jpg'
     },
     {
         id: 16,
