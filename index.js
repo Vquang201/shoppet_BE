@@ -1,12 +1,12 @@
 // import dotenv from 'dotenv'
 // import cors from 'cors'
 
-const express = requied("express")
+const express = require("express")
+const app = express()
 
 // Enables CORS
-const cors = requied('cors')
-app.use(cors())
-const app = express()
+const cors = require('cors')
+app.use(cors({ origin: true }))
 // dotenv.config()
 
 
