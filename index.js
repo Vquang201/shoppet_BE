@@ -1,10 +1,9 @@
 // import dotenv from 'dotenv'
+// import cors from 'cors'
 
 const express = require("express")
 const app = express()
 // dotenv.config()
-
-
 
 
 const dogsV1 = [
@@ -362,6 +361,10 @@ app.get("/v2/cats", (req, res) => {
     res.status(200).json(catsV2)
 })
 
+
+// Enables CORS
+const cors = requied('cors')
+app.use(cors())
 
 
 
